@@ -6,11 +6,11 @@ examples of how to deal with the api
 http://mshahzaib.pythonanywhere.com/user/get
 {"users": []}
 
-http://mshahzaib.pythonanywhere.com/user/add/yes & face-vec & Danish & username123 & pass123
+http://mshahzaib.pythonanywhere.com/user/add/yes & username123 & pass123
 "{done:true}"
 
 http://mshahzaib.pythonanywhere.com/user/get
-{"users": [[1, "yes", "face-vec", "Danish", "username123", "pass123"]]}
+{"users": [[1, "yes", "username123", "pass123"]]}
 
 http://mshahzaib.pythonanywhere.com/user/del/1
 "{done:true}"
